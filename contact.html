@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact - Vidhi Choudhary</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- header -->
+  <nav class="navbar">
+    <div class="logo">My Portfolio</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main class="section">
+    <div class="container center" data-aos="fade-up">
+      <h2>Contact Me</h2>
+      <p class="small-muted" style="margin-top:8px; margin-bottom:12px;">Have a question or want to collaborate? Send a message below.</p>
+
+      <div class="contact-box" data-aos="fade-up" data-aos-delay="60">
+        <form id="contactForm">
+          <table style="width:100%; border-collapse:collapse;" cellpadding="10">
+            <tr><td style="width:120px;">Name:</td><td><input type="text" id="nameInput" required></td></tr>
+            <tr><td>Email:</td><td><input type="email" id="emailInput" required></td></tr>
+            <tr><td>Message:</td><td><textarea id="messageInput" rows="6" required></textarea></td></tr>
+            <tr><td colspan="2"><button type="submit" class="btn btn-primary">Send</button></td></tr>
+          </table>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container center">
+      <p>© 2025 Vidhi Choudhary</p>
+    </div>
+  </footer>
+
+  <!-- AOS + Script -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

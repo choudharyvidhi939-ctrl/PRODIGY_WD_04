@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Portfolio - Vidhi Choudhary</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- header -->
+  <nav class="navbar">
+    <div class="logo">My Portfolio</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main class="section">
+    <div class="container center" data-aos="fade-up">
+      <h2 style="color:#111217;">My Projects 💼</h2>
+      <p style="color:var(--muted); max-width:780px; margin:8px auto 16px;">
+        Here are some of the projects I’ve worked on during my learning journey. Use the filter to narrow down by domain.
+      </p>
+
+      <div class="filter-row" data-aos="fade-up" data-aos-delay="60">
+        <label for="domainFilter" class="small-muted">Filter by Domain:</label>
+        <select id="domainFilter">
+          <option value="">All</option>
+          <option value="FS">FS</option>
+          <option value="DBMS">DBMS</option>
+          <option value="Software Engineering">Software Engineering</option>
+          <option value="Python">Python</option>
+        </select>
+      </div>
+
+      <div id="projectsGrid" class="projects projects-wrap" style="margin-top:18px;"></div>
+
+      <p class="small-muted" style="margin-top:18px;">Tip: Click "View Project" to open the project in a new tab.</p>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container center">
+      <p>© 2025 Vidhi Choudhary</p>
+    </div>
+  </footer>
+
+  <!-- AOS + Script -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
